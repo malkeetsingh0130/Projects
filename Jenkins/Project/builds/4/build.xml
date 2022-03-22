@@ -1,0 +1,93 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.18">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.8.3">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.9.0">
+              <sha1>f1a8a15452d3374d15e620e39f7079b57ff10776</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>4</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/malkeetsingh0130/Project.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.SurefireAggregatedReport>
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>2</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>2</totalCount>
+      <children>
+        <hudson.tasks.test.AggregatedTestResultAction_-Child plugin="junit@1.53">
+          <name>example:example.test</name>
+          <build>4</build>
+        </hudson.tasks.test.AggregatedTestResultAction_-Child>
+      </children>
+    </hudson.maven.reporters.SurefireAggregatedReport>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>junit:junit-4.11.jar</string>
+          <string>3c42be5ea7cbf3635716abbb429cb90d</string>
+        </entry>
+        <entry>
+          <string>org.hamcrest:hamcrest-core-1.3.jar</string>
+          <string>6393363b47ddcbba82321110c3e07519</string>
+        </entry>
+        <entry>
+          <string>example:example.test:pom.xml</string>
+          <string>a3370e7daedf99789141c55cc6761bed</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>16</queueId>
+  <timestamp>1647925845230</timestamp>
+  <startTime>1647925845306</startTime>
+  <result>UNSTABLE</result>
+  <duration>44794</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\Administrator\.jenkins\workspace\Project</workspace>
+  <hudsonVersion>2.338</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.8.3">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+  <projectActionReporters>
+    <hudson.maven.reporters.MavenSiteArchiver/>
+  </projectActionReporters>
+  <mavenVersionUsed>3.8.4</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

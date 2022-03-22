@@ -1,0 +1,54 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.53">
+  <suites>
+    <suite>
+      <file>C:\Users\Administrator\.jenkins\workspace\RestAssured1\RestAssuredTesting\target\surefire-reports\TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>14.011</duration>
+      <time>14.011</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>4.22</duration>
+          <className>RestTesting.Trello</className>
+          <testName>createBoard</testName>
+          <skipped>false</skipped>
+          <stdout>[TestNGContentHandler] [WARN] It is strongly recommended to add &quot;&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot; &gt;&quot; at the top of your file, otherwise TestNG may fail or not work as expected.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.991</duration>
+          <className>RestTesting.Trello</className>
+          <testName>getBoard</testName>
+          <skipped>false</skipped>
+          <stdout>{&quot;id&quot;:&quot;6231bfaf1079cd8f1bfc9547&quot;,&quot;name&quot;:&quot;Hello&quot;,&quot;desc&quot;:&quot;&quot;,&quot;descData&quot;:null,&quot;closed&quot;:false,&quot;idOrganization&quot;:&quot;622ee9f88edc991d08ceedee&quot;,&quot;idEnterprise&quot;:null,&quot;pinned&quot;:false,&quot;url&quot;:&quot;https://trello.com/b/NMn7kmpE/hello&quot;,&quot;shortUrl&quot;:&quot;https://trello.com/b/NMn7kmpE&quot;,&quot;prefs&quot;:{&quot;permissionLevel&quot;:&quot;private&quot;,&quot;hideVotes&quot;:false,&quot;voting&quot;:&quot;disabled&quot;,&quot;comments&quot;:&quot;members&quot;,&quot;invitations&quot;:&quot;members&quot;,&quot;selfJoin&quot;:true,&quot;cardCovers&quot;:true,&quot;isTemplate&quot;:false,&quot;cardAging&quot;:&quot;regular&quot;,&quot;calendarFeedEnabled&quot;:false,&quot;hiddenPluginBoardButtons&quot;:[],&quot;background&quot;:&quot;blue&quot;,&quot;backgroundColor&quot;:&quot;#0079BF&quot;,&quot;backgroundImage&quot;:null,&quot;backgroundImageScaled&quot;:null,&quot;backgroundTile&quot;:false,&quot;backgroundBrightness&quot;:&quot;dark&quot;,&quot;backgroundBottomColor&quot;:&quot;#0079BF&quot;,&quot;backgroundTopColor&quot;:&quot;#0079BF&quot;,&quot;canBePublic&quot;:true,&quot;canBeEnterprise&quot;:true,&quot;canBeOrg&quot;:true,&quot;canBePrivate&quot;:true,&quot;canInvite&quot;:true},&quot;labelNames&quot;:{&quot;green&quot;:&quot;&quot;,&quot;yellow&quot;:&quot;&quot;,&quot;orange&quot;:&quot;&quot;,&quot;red&quot;:&quot;&quot;,&quot;purple&quot;:&quot;&quot;,&quot;blue&quot;:&quot;&quot;,&quot;sky&quot;:&quot;&quot;,&quot;lime&quot;:&quot;&quot;,&quot;pink&quot;:&quot;&quot;,&quot;black&quot;:&quot;&quot;}}
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.954</duration>
+          <className>RestTesting.Trello</className>
+          <testName>DeleteBoard</testName>
+          <skipped>false</skipped>
+          <stdout>{&quot;_value&quot;:null}
+
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.201</duration>
+          <className>RestTesting.Ecommerce</className>
+          <testName>Login</testName>
+          <skipped>false</skipped>
+          <stdout>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjMwYzE2YjZhYjVjNjAwMTcyZmQxYjMiLCJpYXQiOjE2NDc0Mjc1MDksImV4cCI6MTY0NzUxMzkwOX0.HTHicxIoyWAqrtY11tSc--OpnskAWLbAsT2vhaQOrKo
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>14.011</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

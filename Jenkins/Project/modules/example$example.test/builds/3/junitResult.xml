@@ -1,0 +1,252 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.53">
+  <suites>
+    <suite>
+      <name>TEST-calculator.xml</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>0.0</duration>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>TEST-calculator.xml</className>
+          <testName>[failed-to-read]</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Failed to read test report file C:\Users\Administrator\.jenkins\workspace\Project\target\surefire-reports\TEST-calculator.xml
+org.dom4j.DocumentException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory&#xd;
+	at org.dom4j.io.SAXReader.read(SAXReader.java:513)&#xd;
+	at org.dom4j.io.SAXReader.read(SAXReader.java:392)&#xd;
+	at hudson.tasks.junit.SuiteResult.parse(SuiteResult.java:177)&#xd;
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:378)&#xd;
+	at hudson.tasks.junit.TestResult.parsePossiblyEmpty(TestResult.java:308)&#xd;
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:277)&#xd;
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:258)&#xd;
+	at hudson.maven.reporters.SurefireArchiver.postExecute(SurefireArchiver.java:143)&#xd;
+	at hudson.maven.Maven3Builder$MavenExecutionListener.recordMojoEnded(Maven3Builder.java:617)&#xd;
+	at hudson.maven.Maven3Builder$MavenExecutionListener.mojoSucceeded(Maven3Builder.java:598)&#xd;
+	at hudson.maven.Maven3Builder$JenkinsEventSpy.onEvent(Maven3Builder.java:301)&#xd;
+	at org.apache.maven.eventspy.internal.EventSpyDispatcher.onEvent(EventSpyDispatcher.java:104)&#xd;
+	at org.apache.maven.eventspy.internal.EventSpyExecutionListener.mojoSucceeded(EventSpyExecutionListener.java:131)&#xd;
+	at org.apache.maven.lifecycle.internal.DefaultExecutionEventCatapult.fire(DefaultExecutionEventCatapult.java:87)&#xd;
+	at org.apache.maven.lifecycle.internal.DefaultExecutionEventCatapult.fire(DefaultExecutionEventCatapult.java:42)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:218)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions(MojoExecutor.java:355)&#xd;
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeForkedExecutions(DefaultLifecycleExecutor.java:173)&#xd;
+	at org.apache.maven.reporting.exec.DefaultMavenReportExecutor.prepareReportExecution(DefaultMavenReportExecutor.java:354)&#xd;
+	at org.apache.maven.reporting.exec.DefaultMavenReportExecutor.buildReportPlugin(DefaultMavenReportExecutor.java:187)&#xd;
+	at org.apache.maven.reporting.exec.DefaultMavenReportExecutor.buildMavenReports(DefaultMavenReportExecutor.java:152)&#xd;
+	at org.apache.maven.plugins.site.render.AbstractSiteRenderingMojo.getReports(AbstractSiteRenderingMojo.java:254)&#xd;
+	at org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:119)&#xd;
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)&#xd;
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)&#xd;
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)&#xd;
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)&#xd;
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)&#xd;
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)&#xd;
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)&#xd;
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)&#xd;
+	at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#xd;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#xd;
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)&#xd;
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)&#xd;
+	at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#xd;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#xd;
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)&#xd;
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)&#xd;
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)&#xd;
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)&#xd;
+	at hudson.remoting.Request$2.run(Request.java:376)&#xd;
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)&#xd;
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xd;
+	at java.lang.Thread.run(Thread.java:748)&#xd;
+Caused by: java.lang.ClassCastException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory&#xd;
+	at org.dom4j.DocumentFactory.getInstance(DocumentFactory.java:92)&#xd;
+	at org.dom4j.io.SAXReader.getDocumentFactory(SAXReader.java:667)&#xd;
+	at org.dom4j.io.SAXReader.createContentHandler(SAXReader.java:948)&#xd;
+	at org.dom4j.io.SAXReader.read(SAXReader.java:478)&#xd;
+	... 57 more&#xd;
+</errorStackTrace>
+          <errorDetails></errorDetails>
+          <failedSince>1</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>TEST-calculator.xml</className>
+          <testName>[failed-to-read]</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Failed to read test report file C:\Users\Administrator\.jenkins\workspace\Project\target\surefire-reports\TEST-calculator.xml
+org.dom4j.DocumentException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory&#xd;
+	at org.dom4j.io.SAXReader.read(SAXReader.java:513)&#xd;
+	at org.dom4j.io.SAXReader.read(SAXReader.java:392)&#xd;
+	at hudson.tasks.junit.SuiteResult.parse(SuiteResult.java:177)&#xd;
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:378)&#xd;
+	at hudson.tasks.junit.TestResult.parsePossiblyEmpty(TestResult.java:308)&#xd;
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:277)&#xd;
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:258)&#xd;
+	at hudson.maven.reporters.SurefireArchiver.postExecute(SurefireArchiver.java:143)&#xd;
+	at hudson.maven.Maven3Builder$MavenExecutionListener.recordMojoEnded(Maven3Builder.java:617)&#xd;
+	at hudson.maven.Maven3Builder$MavenExecutionListener.mojoSucceeded(Maven3Builder.java:598)&#xd;
+	at hudson.maven.Maven3Builder$JenkinsEventSpy.onEvent(Maven3Builder.java:301)&#xd;
+	at org.apache.maven.eventspy.internal.EventSpyDispatcher.onEvent(EventSpyDispatcher.java:104)&#xd;
+	at org.apache.maven.eventspy.internal.EventSpyExecutionListener.mojoSucceeded(EventSpyExecutionListener.java:131)&#xd;
+	at org.apache.maven.lifecycle.internal.DefaultExecutionEventCatapult.fire(DefaultExecutionEventCatapult.java:87)&#xd;
+	at org.apache.maven.lifecycle.internal.DefaultExecutionEventCatapult.fire(DefaultExecutionEventCatapult.java:42)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:218)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions(MojoExecutor.java:355)&#xd;
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeForkedExecutions(DefaultLifecycleExecutor.java:173)&#xd;
+	at org.apache.maven.reporting.exec.DefaultMavenReportExecutor.prepareReportExecution(DefaultMavenReportExecutor.java:354)&#xd;
+	at org.apache.maven.reporting.exec.DefaultMavenReportExecutor.buildReportPlugin(DefaultMavenReportExecutor.java:187)&#xd;
+	at org.apache.maven.reporting.exec.DefaultMavenReportExecutor.buildMavenReports(DefaultMavenReportExecutor.java:152)&#xd;
+	at org.apache.maven.plugins.site.render.AbstractSiteRenderingMojo.getReports(AbstractSiteRenderingMojo.java:254)&#xd;
+	at org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:119)&#xd;
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)&#xd;
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)&#xd;
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)&#xd;
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)&#xd;
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)&#xd;
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)&#xd;
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)&#xd;
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)&#xd;
+	at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#xd;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#xd;
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)&#xd;
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)&#xd;
+	at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#xd;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#xd;
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)&#xd;
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)&#xd;
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)&#xd;
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)&#xd;
+	at hudson.remoting.Request$2.run(Request.java:376)&#xd;
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)&#xd;
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xd;
+	at java.lang.Thread.run(Thread.java:748)&#xd;
+Caused by: java.lang.ClassCastException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory&#xd;
+	at org.dom4j.DocumentFactory.getInstance(DocumentFactory.java:92)&#xd;
+	at org.dom4j.io.SAXReader.getDocumentFactory(SAXReader.java:667)&#xd;
+	at org.dom4j.io.SAXReader.createContentHandler(SAXReader.java:948)&#xd;
+	at org.dom4j.io.SAXReader.read(SAXReader.java:478)&#xd;
+	... 57 more&#xd;
+</errorStackTrace>
+          <errorDetails></errorDetails>
+          <failedSince>1</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <name>TEST-com.mycompany.app.AppTest.xml</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>0.0</duration>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>TEST-com.mycompany.app.AppTest.xml</className>
+          <testName>[failed-to-read]</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Failed to read test report file C:\Users\Administrator\.jenkins\workspace\Project\target\surefire-reports\TEST-com.mycompany.app.AppTest.xml
+org.dom4j.DocumentException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory&#xd;
+	at org.dom4j.io.SAXReader.read(SAXReader.java:513)&#xd;
+	at org.dom4j.io.SAXReader.read(SAXReader.java:392)&#xd;
+	at hudson.tasks.junit.SuiteResult.parse(SuiteResult.java:177)&#xd;
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:378)&#xd;
+	at hudson.tasks.junit.TestResult.parsePossiblyEmpty(TestResult.java:308)&#xd;
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:277)&#xd;
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:258)&#xd;
+	at hudson.maven.reporters.SurefireArchiver.postExecute(SurefireArchiver.java:143)&#xd;
+	at hudson.maven.Maven3Builder$MavenExecutionListener.recordMojoEnded(Maven3Builder.java:617)&#xd;
+	at hudson.maven.Maven3Builder$MavenExecutionListener.mojoSucceeded(Maven3Builder.java:598)&#xd;
+	at hudson.maven.Maven3Builder$JenkinsEventSpy.onEvent(Maven3Builder.java:301)&#xd;
+	at org.apache.maven.eventspy.internal.EventSpyDispatcher.onEvent(EventSpyDispatcher.java:104)&#xd;
+	at org.apache.maven.eventspy.internal.EventSpyExecutionListener.mojoSucceeded(EventSpyExecutionListener.java:131)&#xd;
+	at org.apache.maven.lifecycle.internal.DefaultExecutionEventCatapult.fire(DefaultExecutionEventCatapult.java:87)&#xd;
+	at org.apache.maven.lifecycle.internal.DefaultExecutionEventCatapult.fire(DefaultExecutionEventCatapult.java:42)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:218)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions(MojoExecutor.java:355)&#xd;
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeForkedExecutions(DefaultLifecycleExecutor.java:173)&#xd;
+	at org.apache.maven.reporting.exec.DefaultMavenReportExecutor.prepareReportExecution(DefaultMavenReportExecutor.java:354)&#xd;
+	at org.apache.maven.reporting.exec.DefaultMavenReportExecutor.buildReportPlugin(DefaultMavenReportExecutor.java:187)&#xd;
+	at org.apache.maven.reporting.exec.DefaultMavenReportExecutor.buildMavenReports(DefaultMavenReportExecutor.java:152)&#xd;
+	at org.apache.maven.plugins.site.render.AbstractSiteRenderingMojo.getReports(AbstractSiteRenderingMojo.java:254)&#xd;
+	at org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:119)&#xd;
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)&#xd;
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)&#xd;
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)&#xd;
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)&#xd;
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)&#xd;
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)&#xd;
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)&#xd;
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)&#xd;
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)&#xd;
+	at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#xd;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#xd;
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)&#xd;
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)&#xd;
+	at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#xd;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#xd;
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)&#xd;
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)&#xd;
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)&#xd;
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)&#xd;
+	at hudson.remoting.Request$2.run(Request.java:376)&#xd;
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)&#xd;
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xd;
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xd;
+	at java.lang.Thread.run(Thread.java:748)&#xd;
+Caused by: java.lang.ClassCastException: org.dom4j.DocumentFactory cannot be cast to org.dom4j.DocumentFactory&#xd;
+	at org.dom4j.DocumentFactory.getInstance(DocumentFactory.java:92)&#xd;
+	at org.dom4j.io.SAXReader.getDocumentFactory(SAXReader.java:667)&#xd;
+	at org.dom4j.io.SAXReader.createContentHandler(SAXReader.java:948)&#xd;
+	at org.dom4j.io.SAXReader.read(SAXReader.java:478)&#xd;
+	... 57 more&#xd;
+</errorStackTrace>
+          <errorDetails></errorDetails>
+          <failedSince>1</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.0</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

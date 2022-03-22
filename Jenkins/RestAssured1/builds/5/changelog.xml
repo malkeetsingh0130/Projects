@@ -1,0 +1,19 @@
+commit 60d7b670f1367cc0bcf3e4721ac6a62280281b96
+tree 5e40a6658f0c1d0556a240f2db9c8d151d5a70a3
+parent d90ef26d9566d2ced52999cff20d8e5f7ef2cfe4
+author Malkeet <malkeet@example.com> 2022-03-16 16:12:51 +0530
+committer Malkeet <malkeet@example.com> 2022-03-16 16:12:51 +0530
+
+    new commit
+
+:100644 100644 450502673036472628c14abe6e5cfe8930e66136 50244fea60344fea3d20ba6d9af4c69ca5d2bdf0 M	RestAssuredTesting/.classpath
+:100644 100644 ac8e7500c74088687227c4a41239df180d4ca1f7 b11489fa64c19564fe8833aad871e29ff1a6a211 M	RestAssuredTesting/.settings/org.eclipse.jdt.core.prefs
+:100644 100644 8e124a9e876f0fb358116fc923a29fae712951aa 76a8aaf5bd580d2562fcf5682108914107903b0a M	RestAssuredTesting/pom.xml
+:100644 100644 d3521026ba630ef486a9effc107b02da755a37e6 5e6d2d39717f5262e987ced95028ee89f7a4c1a2 M	RestAssuredTesting/src/test/java/RestTesting/Ecommerce.java
+:100644 100644 2d33fc7866576eb0b3ac4d83d3cd014d90a19f16 469b255129b02bafbaf74e811e7f6d521a198747 M	RestAssuredTesting/target/classes/META-INF/maven/APITesting/RestAssuredTesting/pom.properties
+:100644 100644 8e124a9e876f0fb358116fc923a29fae712951aa 76a8aaf5bd580d2562fcf5682108914107903b0a M	RestAssuredTesting/target/classes/META-INF/maven/APITesting/RestAssuredTesting/pom.xml
+:100644 100644 610052f3277e3193f69957428f6f44e18f0a2890 a976343778791f6a5cd16e0cdc2bcc1ab3d6bb7f M	RestAssuredTesting/target/test-classes/RestTesting/Ecommerce.class
+:100644 100644 009fae70e2aeeebfd5c7f07e4b0de87af5009e97 726897b6a56f778901696525e473d283590b9b72 M	RestAssuredTesting/target/test-classes/RestTesting/TestNG.class
+:100644 100644 500342ce22bff8dd6d49c683daf1aed4334d402d 45797f41c18c7eef57831fe6328bb9ab9cdfc8e5 M	RestAssuredTesting/target/test-classes/RestTesting/Trello.class
+:100644 100644 73206808d3cacbe7656b3ea81249d63951bd0d2e ba846d1ad53a3567d75b20d53e0dfaa36f9e37db M	RestAssuredTesting/target/test-classes/RestTesting/diffjnuint.class
+:000000 100644 0000000000000000000000000000000000000000 c2523dde3d80b953ba7d24dfb7040feab1aa9fc5 A	RestAssuredTesting/testng.xml
